@@ -29,6 +29,14 @@ For over 12 years I’ve been working as an economist. In general I like my curr
 
 ## Code example:
 
+```
+function rentalCarCost(d) {
+  if (d >= 7) return d * 40 - 50;
+  
+  if (d >= 3 && d < 7) return d * 40 - 20;
+  return d * 40;
+}
+```
 
 
 ## Education:
