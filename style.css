@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.6;
     color: #2c0206;
     min-height: 100vh;
@@ -10,13 +10,13 @@ body {
     display: flex;
     flex-direction: column;
    justify-content: space-between;
+   background-image: url(./assets/img/layer.jpg);
+   background-size: cover;
 }
 
 html {
     scroll-behavior: smooth; 
-    background-image: url(./assets/img/layer.jpg);
-    background-size: cover;
-  }
+   }
 
 * {
     box-sizing: border-box;
@@ -34,7 +34,8 @@ html {
 .footer {
     border: 0px solid red;
     background-color: #af7373;
-  }
+    display:inline-flex;
+    }
  
 .container {
     max-width: 1440px;
@@ -77,9 +78,18 @@ html {
     color: rgb(60, 2, 2);
   }
 
+  .container-footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: left;
+    text-align: justify;
+  }
+
   #name {
     text-align: left;
   }
+
+
 
 
 
