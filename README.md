@@ -1,3 +1,3 @@
-# rsschool-cv-html
+# rsschool-cv
 
 https://jessvit.github.io/rsschool-cv/
